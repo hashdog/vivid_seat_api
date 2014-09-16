@@ -1,4 +1,4 @@
-# VividSeatApi
+# VividSeatApi [![Code Climate](https://codeclimate.com/github/hashdog/vivid_seat_api/badges/gpa.svg)](https://codeclimate.com/github/hashdog/vivid_seat_api) [![Gem Version](https://badge.fury.io/rb/vivid_seat_api.svg)](http://badge.fury.io/rb/vivid_seat_api)
 
 This gem provides access to add, edit and delete listings appearing on Vivid Seats and it’s affiliates.
 
