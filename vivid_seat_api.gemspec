@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = VividSeatApi::VERSION
   spec.authors       = ["chebyte"]
   spec.email         = ["mauro@hashdog.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Ruby Gem API for vividseats.com.}
+  spec.description   = %q{This gem provides access to add, edit and delete listings appearing on Vivid Seats and it’s affiliates.}
+  spec.homepage      = "http://hashdog.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_dependency "faraday", "~> 0.9.0"
+  spec.add_dependency "nokogiri", "~> 1.6.1"
 end
