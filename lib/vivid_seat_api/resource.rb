@@ -4,19 +4,19 @@ module VividSeatApi
       get_query_api("getListings", options)
     end
 
-    def update
+    def update(options = {})
       post_query_api("updateListing", options)
     end
 
-    def delete
+    def delete(options = {})
       get_query_api("deleteListing", options)
     end
 
-    def create
+    def create(options = {})
       post_query_api("insertListing", options)
     end
 
-    def insert_or_update
+    def insert_or_update(options = {})
       post_query_api("insertOrUpdateListing", options)
     end
   end
