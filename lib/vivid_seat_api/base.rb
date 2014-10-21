@@ -14,7 +14,6 @@ module VividSeatApi
     end
 
     def get_query_api url, options
-      puts make_request_url(url, options)
       session.get(make_request_url(url, options)).body
     end
 
